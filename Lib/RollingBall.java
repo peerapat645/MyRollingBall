@@ -10,7 +10,7 @@ public class RollingBall extends JPanel implements ActionListener{
     int start_angle = 0;
     int size = 80;
 
-    public void RollingBall(){
+    public RollingBall(){
     Timer t = new Timer(50, this);
     t.start();
 
